@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visualizar Necessidades</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Cabeçalho da pagina -->
+  <header>
+    <h1>Necessidades Cadastradas</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cadastrar.html">Cadastrar Necessidade</a>
+      <a href="visualizar.html">Ver Necessidades</a>
+    </nav>
+  </header>
+
+  <!-- Campo de pesquisa e filtro -->
+  <main>
+    <input type="text" id="pesquisa" placeholder="Buscar por título ou descrição..." />
+    <select id="filtroTipoAjuda">
+      <option value="">Todos os tipos</option>
+      <option>Educação</option>
+      <option>Saúde</option>
+      <option>Meio Ambiente</option>
+      <option>Doação de Alimentos</option>
+      <option>Doação de Roupas</option>
+      <option>Outros</option>
+    </select>
+
+    <!-- Area aonde os cards serão exibidos -->
+    <section id="listaNecessidades"></section>
+  </main>
+
+  <!-- Rodapé da pagina -->
+  <footer><p>&copy; 2025 Projeto Conexão Voluntária Local</p></footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/visualizar.js"></script>
+</body>
+</html>
