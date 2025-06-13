@@ -46,3 +46,47 @@ main {
   flex-direction: column;
   text-align: center;
 }
+
+/* Estilizando o formulario */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Estilizando o botão do formulario */
+form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #457b9d;
+}
