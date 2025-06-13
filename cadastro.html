@@ -40,6 +40,27 @@
         <label for="descricao">Descrição Detalhada:</label>
         <textarea id="descricao" name="descricao" required></textarea>
 
+        <!-- Campo de CEP com o evento 'onblur' para buscar o endereço -->
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" maxlength="8" onblur="buscarEndereco()" required>
+
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" readonly required>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" readonly required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" readonly required>
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" readonly required>
+
+        <label for="contato">Contato:</label>
+        <input type="text" id="contato" name="contato" required>
+
+        <!-- Botao para cadastrar -->
+        <button type="submit">Cadastrar</button>
     </form>
   </main>
 
