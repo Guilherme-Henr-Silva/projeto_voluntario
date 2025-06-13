@@ -9,7 +9,7 @@ function carregarNecessidades() {
   // Para cada necessidade, cria um card com as informações
   necessidades.forEach(n => {
     const card = document.createElement("div");
-    card.classList.add("card"); // Você pode estilizar essa classe no CSS
+    card.classList.add("card");
 
     card.innerHTML = `
       <h3>${n.titulo}</h3>
