@@ -35,3 +35,7 @@ Criar uma aplicação web onde instituições possam cadastrar suas necessidades
 ``HTML5``  
 ``CSS3``  
 ``JavaScript``
+
+# Autores
+
+[<img src="perfil.jpg" width=95><br><sub>Guilherme Henrique Silva</sub>](https://github.com/Guilherme-Henr-Silva)
