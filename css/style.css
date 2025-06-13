@@ -5,10 +5,37 @@ html, body {
   padding: 0;
   height: 100%;
 }
+
 body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
+}
+
+/* Estilo cabeçalho */
+header {
+  background-color: #354f75;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Estilo rodapé */
+footer {
+  background-color: #354f75;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #f1faee;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
 }
