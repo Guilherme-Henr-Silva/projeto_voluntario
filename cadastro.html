@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar Necessidade</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Cabeçalho da pagina -->
+  <header>
+    <h1>Cadastro de Necessidade</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="cadastrar.html">Cadastrar Necessidade</a>
+      <a href="visualizar.html">Ver Necessidades</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="formCadastro" onsubmit="cadastrarNecessidade(event)">
+        <!-- Campos do formulario -->
+        <label for="instituicao">Nome da Instituição:</label>
+        <input type="text" id="instituicao" name="instituicao" required>
+
+        <label for="tipoAjuda">Tipo de Ajuda:</label>
+        <select id="tipoAjuda" name="tipoAjuda" required>
+          <option value="">Selecione</option>
+          <option value="Educação">Educação</option>
+          <option value="Saúde">Saúde</option>
+          <option value="Meio Ambiente">Meio Ambiente</option>
+          <option value="Doação de Alimentos">Doação de Alimentos</option>
+          <option value="Doação de Roupas">Doação de Roupas</option>
+          <option value="Outros">Outros</option>
+        </select>
+
+        <label for="titulo">Título da Necessidade:</label>
+        <input type="text" id="titulo" name="titulo" required>
+
+        <label for="descricao">Descrição Detalhada:</label>
+        <textarea id="descricao" name="descricao" required></textarea>
+
+    </form>
+  </main>
+
+  <!-- Rodapé da pagina -->
+  <footer><p>&copy; 2025 Projeto Conexão Voluntária Local</p></footer>
+
+  <script src="js/cadastro.js" defer></script>
+  <script src="js/dados.js"></script>
+</body>
+</html>
