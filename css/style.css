@@ -39,3 +39,10 @@ nav a {
 main {
   flex: 1;
 }
+
+/* Centralizando texto na tela de inicio */
+#inicio{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
